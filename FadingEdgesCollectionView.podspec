@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FadingEdgesCollectionView'
-  s.version          = '0.0.1'
+  s.version          = '0.0.3'
   s.summary          = 'A UICollectionView that fades its edges to hint about more content'
  
   s.description      = <<-DESC
