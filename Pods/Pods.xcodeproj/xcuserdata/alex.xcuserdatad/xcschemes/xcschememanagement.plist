@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AHEasing.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>HTGradientEasing.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-FadingEdgesCollectionView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>UIColor-CrossFade.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false />
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>036202BCDF7F3FBF8A12089251D0B548</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>9D31C21AB86D32B625D22D2F90CC9F72</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>A59141EE0A92952631B630BF7D1CAA3F</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+		<key>EC26F69B69B8289E9BC27AEF2E4E278D</key>
+		<dict>
+			<key>primary</key>
+			<true />
+		</dict>
+	</dict>
+</dict>
+</plist>

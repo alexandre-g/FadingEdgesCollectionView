@@ -7,6 +7,7 @@
 //
 
 import UIKit
+//import HTGradientEasing
 
 extension UIView {
     var height: CGFloat {
@@ -301,7 +302,7 @@ public class FadingEdgesCollectionView: UICollectionView {
             default:
                 break
             }
-            //gradient.setEasedGradientColors([UIColor.black, UIColor.clear], locations: [0, 1], easingFunction: SineEaseIn, keyframesBetweenLocations: 6)
+            gradient.setEasedGradientColors([UIColor.black, UIColor.clear], locations: [0, 1], easingFunction: SineEaseIn, keyframesBetweenLocations: 6)
             vGradient.layer.mask = gradient
             
             if let btnArrow = superview?.viewWithTag(vGradient.tag + 1) {

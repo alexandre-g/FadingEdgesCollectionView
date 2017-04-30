@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F813EA416B7BF2912E2EE852 /* libPods-FadingEdgesCollectionView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7230D1F76BE47EEC0F53B9ED /* libPods-FadingEdgesCollectionView.a */; };
 		FA5727E51EB56FCB00E6C7CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5727E41EB56FCB00E6C7CC /* AppDelegate.swift */; };
 		FA5727E71EB56FCB00E6C7CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5727E61EB56FCB00E6C7CC /* ViewController.swift */; };
 		FA5727EA1EB56FCB00E6C7CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5727E81EB56FCB00E6C7CC /* Main.storyboard */; };
@@ -21,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28D704100678ECFA6BF7F864 /* Pods-FadingEdgesCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FadingEdgesCollectionView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FadingEdgesCollectionView/Pods-FadingEdgesCollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		7230D1F76BE47EEC0F53B9ED /* libPods-FadingEdgesCollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FadingEdgesCollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDBD69797D4F0B60A3AAAB1 /* Pods-FadingEdgesCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FadingEdgesCollectionView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FadingEdgesCollectionView/Pods-FadingEdgesCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		FA1011891EB5E48C0018037F /* FadingEdgesCollectionView-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FadingEdgesCollectionView-BridgingHeader.h"; sourceTree = "<group>"; };
+		FA5530001EB5D75200452911 /* HTGradientEasing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTGradientEasing.framework; path = "../../Library/Developer/Xcode/DerivedData/FadingEdgesCollectionView-cyzjinmxeysdwfdkuifrlegjrztf/Build/Products/Debug-iphonesimulator/HTGradientEasing/HTGradientEasing.framework"; sourceTree = "<group>"; };
 		FA5727E11EB56FCB00E6C7CC /* FadingEdgesCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FadingEdgesCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5727E41EB56FCB00E6C7CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA5727E61EB56FCB00E6C7CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F813EA416B7BF2912E2EE852 /* libPods-FadingEdgesCollectionView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5367D621CD523C7DF8605125 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDDBD69797D4F0B60A3AAAB1 /* Pods-FadingEdgesCollectionView.debug.xcconfig */,
+				28D704100678ECFA6BF7F864 /* Pods-FadingEdgesCollectionView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A25745C86EF1295D2F361E00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA5530001EB5D75200452911 /* HTGradientEasing.framework */,
+				7230D1F76BE47EEC0F53B9ED /* libPods-FadingEdgesCollectionView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA5727D81EB56FCB00E6C7CC = {
 			isa = PBXGroup;
 			children = (
 				FA5727E31EB56FCB00E6C7CC /* FadingEdgesCollectionView */,
 				FA5727E21EB56FCB00E6C7CC /* Products */,
+				5367D621CD523C7DF8605125 /* Pods */,
+				A25745C86EF1295D2F361E00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +110,7 @@
 		FA5728031EB5893300E6C7CC /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				FA1011891EB5E48C0018037F /* FadingEdgesCollectionView-BridgingHeader.h */,
 				FA5728041EB5893300E6C7CC /* FadingEdgesCollectionView.swift */,
 				FA5728051EB5893300E6C7CC /* StyleKit.swift */,
 				FA5728061EB5893300E6C7CC /* UIButton+Closure.swift */,
@@ -97,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA5727F31EB56FCB00E6C7CC /* Build configuration list for PBXNativeTarget "FadingEdgesCollectionView" */;
 			buildPhases = (
+				ED1CC1AE7ED5ABF9CE3965F7 /* [CP] Check Pods Manifest.lock */,
 				FA5727DD1EB56FCB00E6C7CC /* Sources */,
 				FA5727DE1EB56FCB00E6C7CC /* Frameworks */,
 				FA5727DF1EB56FCB00E6C7CC /* Resources */,
+				CC4C293910F2968E2D0AF02F /* [CP] Embed Pods Frameworks */,
+				657CA8272CDA5AA0368C2BF6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +190,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		657CA8272CDA5AA0368C2BF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FadingEdgesCollectionView/Pods-FadingEdgesCollectionView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4C293910F2968E2D0AF02F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FadingEdgesCollectionView/Pods-FadingEdgesCollectionView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED1CC1AE7ED5ABF9CE3965F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA5727DD1EB56FCB00E6C7CC /* Sources */ = {
@@ -241,6 +320,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "FadingEdgesCollectionView/Lib/FadingEdgesCollectionView-BridgingHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +364,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "FadingEdgesCollectionView/Lib/FadingEdgesCollectionView-BridgingHeader.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -292,6 +373,7 @@
 		};
 		FA5727F41EB56FCB00E6C7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDDBD69797D4F0B60A3AAAB1 /* Pods-FadingEdgesCollectionView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FadingEdgesCollectionView/Info.plist;
@@ -304,6 +386,7 @@
 		};
 		FA5727F51EB56FCB00E6C7CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28D704100678ECFA6BF7F864 /* Pods-FadingEdgesCollectionView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FadingEdgesCollectionView/Info.plist;
@@ -333,6 +416,7 @@
 				FA5727F51EB56FCB00E6C7CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
