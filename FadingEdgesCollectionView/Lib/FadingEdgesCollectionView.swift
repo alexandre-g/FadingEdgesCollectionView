@@ -40,13 +40,13 @@ class FadingEdgesScrollViewPrivateDelegate: NSObject, UICollectionViewDelegate {
     }
 }
 
-class FadingEdgesCollectionView: UICollectionView {
+public class FadingEdgesCollectionView: UICollectionView {
     private let fadeTagLeft = 7110
     private let fadeTagRight = 7120
     private let fadeTagTop = 7130
     private let fadeTagBottom = 7140
     
-    var gradientLength: CGFloat = 75.0 {
+    public var gradientLength: CGFloat = 75.0 {
         willSet(newValue) {
             removeComponents(.gradients)
         }
@@ -55,7 +55,7 @@ class FadingEdgesCollectionView: UICollectionView {
         }
     }
     
-    var edgesToFade: UIRectEdge = .all {
+    public var edgesToFade: UIRectEdge = .all {
         willSet(newValue) {
             removeComponents()
         }
@@ -64,7 +64,7 @@ class FadingEdgesCollectionView: UICollectionView {
         }
     }
     
-    var arrowLength: CGFloat = 30.0 {
+    public var arrowLength: CGFloat = 30.0 {
         willSet(newValue) {
             removeComponents(.arrows)
         }
@@ -73,7 +73,7 @@ class FadingEdgesCollectionView: UICollectionView {
         }
     }
     
-    var showArrows: Bool = true {
+    public var showArrows: Bool = true {
         didSet {
             removeComponents(.arrows)
             if (showArrows) {
@@ -82,13 +82,13 @@ class FadingEdgesCollectionView: UICollectionView {
         }
     }
     
-    override var backgroundColor: UIColor? {
+    public override var backgroundColor: UIColor? {
         willSet { removeComponents() }
         didSet { addComponents() }
     }
     
     
-    var showGradients: Bool = true {
+    public var showGradients: Bool = true {
         didSet {
             removeComponents(.gradients)
             if (showGradients) {
@@ -106,7 +106,7 @@ class FadingEdgesCollectionView: UICollectionView {
     
     private var components: Components = .all
     
-    var fadeDistance: CGFloat = 25.0 {
+    public var fadeDistance: CGFloat = 25.0 {
         didSet {
             superview?.layoutSubviews()
         }
@@ -130,7 +130,7 @@ class FadingEdgesCollectionView: UICollectionView {
     
     private var wrapperDelegate: FadingEdgesScrollViewPrivateDelegate?
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initDelegate()
     }
@@ -145,7 +145,7 @@ class FadingEdgesCollectionView: UICollectionView {
         super.delegate = wrapperDelegate as UICollectionViewDelegate?
     }
     
-    override var delegate: UICollectionViewDelegate? {
+    public override var delegate: UICollectionViewDelegate? {
         get {
             return wrapperDelegate?.standardDelegate
         }
@@ -177,7 +177,7 @@ class FadingEdgesCollectionView: UICollectionView {
         }
     }
     
-    override func didMoveToSuperview() {
+    public override func didMoveToSuperview() {
         super.didMoveToSuperview()
         addComponents()
     }
@@ -197,7 +197,7 @@ class FadingEdgesCollectionView: UICollectionView {
         }
     }
     
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         setAppropriateEdgeAlpha()
     }
