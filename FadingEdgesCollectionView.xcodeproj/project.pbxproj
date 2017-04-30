@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5727E51EB56FCB00E6C7CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5727E41EB56FCB00E6C7CC /* AppDelegate.swift */; };
+		FA5727E71EB56FCB00E6C7CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5727E61EB56FCB00E6C7CC /* ViewController.swift */; };
+		FA5727EA1EB56FCB00E6C7CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5727E81EB56FCB00E6C7CC /* Main.storyboard */; };
+		FA5727EC1EB56FCB00E6C7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5727EB1EB56FCB00E6C7CC /* Assets.xcassets */; };
+		FA5727EF1EB56FCB00E6C7CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5727ED1EB56FCB00E6C7CC /* LaunchScreen.storyboard */; };
+		FA5727F71EB5705E00E6C7CC /* FadingEdgesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5727F61EB5705E00E6C7CC /* FadingEdgesCollectionView.swift */; };
+		FA5727F91EB5729A00E6C7CC /* UIButton+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5727F81EB5729A00E6C7CC /* UIButton+Closure.swift */; };
+		FA5727FB1EB5760000E6C7CC /* StyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5727FA1EB5760000E6C7CC /* StyleKit.swift */; };
+		FA5727FF1EB5791C00E6C7CC /* img_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5727FC1EB5791C00E6C7CC /* img_1.jpg */; };
+		FA5728001EB5791C00E6C7CC /* img_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5727FD1EB5791C00E6C7CC /* img_2.jpg */; };
+		FA5728011EB5791C00E6C7CC /* img_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5727FE1EB5791C00E6C7CC /* img_3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA5727E11EB56FCB00E6C7CC /* FadingEdgesCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FadingEdgesCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5727E41EB56FCB00E6C7CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA5727E61EB56FCB00E6C7CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA5727E91EB56FCB00E6C7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA5727EB1EB56FCB00E6C7CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA5727EE1EB56FCB00E6C7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA5727F01EB56FCB00E6C7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5727F61EB5705E00E6C7CC /* FadingEdgesCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadingEdgesCollectionView.swift; sourceTree = "<group>"; };
+		FA5727F81EB5729A00E6C7CC /* UIButton+Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Closure.swift"; sourceTree = "<group>"; };
+		FA5727FA1EB5760000E6C7CC /* StyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKit.swift; sourceTree = "<group>"; };
+		FA5727FC1EB5791C00E6C7CC /* img_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_1.jpg; sourceTree = "<group>"; };
+		FA5727FD1EB5791C00E6C7CC /* img_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_2.jpg; sourceTree = "<group>"; };
+		FA5727FE1EB5791C00E6C7CC /* img_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_3.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5727DE1EB56FCB00E6C7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5727D81EB56FCB00E6C7CC = {
+			isa = PBXGroup;
+			children = (
+				FA5727E31EB56FCB00E6C7CC /* FadingEdgesCollectionView */,
+				FA5727E21EB56FCB00E6C7CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5727E21EB56FCB00E6C7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5727E11EB56FCB00E6C7CC /* FadingEdgesCollectionView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5727E31EB56FCB00E6C7CC /* FadingEdgesCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FA5727E41EB56FCB00E6C7CC /* AppDelegate.swift */,
+				FA5727FC1EB5791C00E6C7CC /* img_1.jpg */,
+				FA5727FD1EB5791C00E6C7CC /* img_2.jpg */,
+				FA5727FE1EB5791C00E6C7CC /* img_3.jpg */,
+				FA5727E61EB56FCB00E6C7CC /* ViewController.swift */,
+				FA5727F61EB5705E00E6C7CC /* FadingEdgesCollectionView.swift */,
+				FA5727F81EB5729A00E6C7CC /* UIButton+Closure.swift */,
+				FA5727E81EB56FCB00E6C7CC /* Main.storyboard */,
+				FA5727FA1EB5760000E6C7CC /* StyleKit.swift */,
+				FA5727EB1EB56FCB00E6C7CC /* Assets.xcassets */,
+				FA5727ED1EB56FCB00E6C7CC /* LaunchScreen.storyboard */,
+				FA5727F01EB56FCB00E6C7CC /* Info.plist */,
+			);
+			path = FadingEdgesCollectionView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5727E01EB56FCB00E6C7CC /* FadingEdgesCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5727F31EB56FCB00E6C7CC /* Build configuration list for PBXNativeTarget "FadingEdgesCollectionView" */;
+			buildPhases = (
+				FA5727DD1EB56FCB00E6C7CC /* Sources */,
+				FA5727DE1EB56FCB00E6C7CC /* Frameworks */,
+				FA5727DF1EB56FCB00E6C7CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FadingEdgesCollectionView;
+			productName = FadingEdgesCollectionView;
+			productReference = FA5727E11EB56FCB00E6C7CC /* FadingEdgesCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5727D91EB56FCB00E6C7CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alexandre GOloskok";
+				TargetAttributes = {
+					FA5727E01EB56FCB00E6C7CC = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA5727DC1EB56FCB00E6C7CC /* Build configuration list for PBXProject "FadingEdgesCollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5727D81EB56FCB00E6C7CC;
+			productRefGroup = FA5727E21EB56FCB00E6C7CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5727E01EB56FCB00E6C7CC /* FadingEdgesCollectionView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5727DF1EB56FCB00E6C7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5727EF1EB56FCB00E6C7CC /* LaunchScreen.storyboard in Resources */,
+				FA5728001EB5791C00E6C7CC /* img_2.jpg in Resources */,
+				FA5727FF1EB5791C00E6C7CC /* img_1.jpg in Resources */,
+				FA5727EC1EB56FCB00E6C7CC /* Assets.xcassets in Resources */,
+				FA5727EA1EB56FCB00E6C7CC /* Main.storyboard in Resources */,
+				FA5728011EB5791C00E6C7CC /* img_3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5727DD1EB56FCB00E6C7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5727F71EB5705E00E6C7CC /* FadingEdgesCollectionView.swift in Sources */,
+				FA5727E71EB56FCB00E6C7CC /* ViewController.swift in Sources */,
+				FA5727E51EB56FCB00E6C7CC /* AppDelegate.swift in Sources */,
+				FA5727FB1EB5760000E6C7CC /* StyleKit.swift in Sources */,
+				FA5727F91EB5729A00E6C7CC /* UIButton+Closure.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA5727E81EB56FCB00E6C7CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5727E91EB56FCB00E6C7CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA5727ED1EB56FCB00E6C7CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5727EE1EB56FCB00E6C7CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA5727F11EB56FCB00E6C7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA5727F21EB56FCB00E6C7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA5727F41EB56FCB00E6C7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FadingEdgesCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goloskok.FadingEdgesCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FA5727F51EB56FCB00E6C7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FadingEdgesCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goloskok.FadingEdgesCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5727DC1EB56FCB00E6C7CC /* Build configuration list for PBXProject "FadingEdgesCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5727F11EB56FCB00E6C7CC /* Debug */,
+				FA5727F21EB56FCB00E6C7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5727F31EB56FCB00E6C7CC /* Build configuration list for PBXNativeTarget "FadingEdgesCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5727F41EB56FCB00E6C7CC /* Debug */,
+				FA5727F51EB56FCB00E6C7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5727D91EB56FCB00E6C7CC /* Project object */;
+}
