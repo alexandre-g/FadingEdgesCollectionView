@@ -46,7 +46,7 @@
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>HTGradientEasing</string>
+			<string>HTGradientEasing-Fixed</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

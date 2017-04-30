@@ -17,7 +17,7 @@ This application makes use of the following third party libraries:
 
   0. You just DO WHAT THE FUCK YOU WANT TO.
 
-## HTGradientEasing
+## HTGradientEasing-Fixed
 
  Copyright (c) 2013 Hotel Tonight
  

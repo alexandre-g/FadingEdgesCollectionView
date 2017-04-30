@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "247B6784990BD2B5838300969FBAD017B5D0C665",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "247B6784990BD2B5838300969FBAD017B5D0C665" : 9223372036854775807,
+    "DDFF7248C8DDC25392E5D38029E9DAC2DE5FB39C" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1DB8C1FB-49D9-4702-B114-903EAF05F731",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "247B6784990BD2B5838300969FBAD017B5D0C665" : "FadingEdgesCollectionView\/",
+    "DDFF7248C8DDC25392E5D38029E9DAC2DE5FB39C" : "GitHub\/HTGradientEasing\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FadingEdgesCollectionView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FadingEdgesCollectionView.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/alexandre-g\/FadingEdgesCollectionView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "247B6784990BD2B5838300969FBAD017B5D0C665"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/alexandre-g\/HTGradientEasing.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DDFF7248C8DDC25392E5D38029E9DAC2DE5FB39C"
+    }
+  ]
+}

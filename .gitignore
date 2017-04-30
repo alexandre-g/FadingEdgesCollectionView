@@ -28,5 +28,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 .idea
+Pods/
+Pods/Target Support Files/
+xcuserdata/
 
 # End of https://www.gitignore.io/api/osx

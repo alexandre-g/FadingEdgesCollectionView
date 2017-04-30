@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FadingEdgesCollectionView'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = 'A UICollectionView that fades its edges to hint about more content'
  
   s.description      = <<-DESC
@@ -13,7 +13,7 @@ A UICollectionView that fades it's edges to hint about more content
   s.source           = { :git => 'https://github.com/alexandre-g/FadingEdgesCollectionView.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.dependency 'HTGradientEasing', '0.0.4'
-  s.source_files = 'FadingEdgesCollectionView/Lib/*.*'
- 
+  s.dependency 'HTGradientEasing-Fixed'
+  s.source_files = 'FadingEdgesCollectionView/Lib/*.swift'
+
 end

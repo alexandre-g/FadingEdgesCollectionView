@@ -7,7 +7,8 @@
 //
 
 import UIKit
-//import HTGradientEasing
+import AHEasing
+import HTGradientEasing_Fixed
 
 extension UIView {
     var height: CGFloat {

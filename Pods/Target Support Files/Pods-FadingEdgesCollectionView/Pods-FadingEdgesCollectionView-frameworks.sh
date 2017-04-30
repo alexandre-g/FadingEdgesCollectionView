@@ -87,6 +87,17 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/AHEasing/AHEasing.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/HTGradientEasing-Fixed/HTGradientEasing_Fixed.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIColor-CrossFade/UIColor_CrossFade.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/AHEasing/AHEasing.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/HTGradientEasing-Fixed/HTGradientEasing_Fixed.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/UIColor-CrossFade/UIColor_CrossFade.framework"
+fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi

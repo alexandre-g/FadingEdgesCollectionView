@@ -7,375 +7,387 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D689D53BFCB081CDF908EA2D65306CC /* CAGradientLayer+AHEasing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFF08EAB156413C80216DF229DBFC24 /* CAGradientLayer+AHEasing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E5616B98C3C194D92B399C0998D8BDD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */; };
-		2C0C16445C2AA22EE90AC3F2E6762970 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		3CF16A0CD9DAD05C1CAF7B905C2F6759 /* CAGradientLayer+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D91EE714A88EE190A70FE8FC00F5DFC /* CAGradientLayer+AHEasing.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		3D9E7F9D0CA3C8A19894F3057A02332E /* easing.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D7BE8C4EB9D049BF40B8A6E7585D19 /* easing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5873F479DA8A43E47BBCF5F71B1BA34C /* UIColor+CrossFade.h in Headers */ = {isa = PBXBuildFile; fileRef = C341A159195BD87D99314679AFE6DB1C /* UIColor+CrossFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64AFC06336DC1BD409AD3BC589175912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		6E89538D1EC7C2A0A9D2C194025A9843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		79EC8EE8C0A359E6ED1E631CCB4F81FA /* CAKeyframeAnimation+AHEasing.h in Headers */ = {isa = PBXBuildFile; fileRef = A7049154DA39F112E506B34138CDDB22 /* CAKeyframeAnimation+AHEasing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C31C5976110B930D83651234ED8DC4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
-		85475E5EB2309583AF2039ECD9D5E796 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC70EE21928641949CEF4C445E9A15 /* CAKeyframeAnimation+AHEasing.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		95889841C8B0E26289A1EA613606F7BF /* UIColor-CrossFade-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA57EAC4E815442D8355C66F5C4B087F /* UIColor-CrossFade-dummy.m */; };
-		AE58263F9754C63136052EF13B7B4577 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = C19FEC1894AB44A5B53073F7B345823C /* easing.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B6A47CD8A57B6516EA156834E6CC020D /* AHEasing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19436E2C523CAC23B35E4F69548E0F3A /* AHEasing-dummy.m */; };
-		B6B9808379861948BFEACF809DF56175 /* HTGradientEasing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B986B6C8A22A83079A3EE4372B6E1FE /* HTGradientEasing-dummy.m */; };
-		DE6AED41D5118E3640E2BCD6C406F371 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */; };
-		DE87EA8C66DDE67FDA1AAADED9FDB832 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */; };
-		EC264F4667CB71011143C11C5C120D49 /* Pods-FadingEdgesCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B387C2337C1C94F8396FB646BB335B /* Pods-FadingEdgesCollectionView-dummy.m */; };
-		F3F61DD8F1AC645848CCCABA769EA4DB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */; };
-		F4712023D52DAF1BDAE5045887A2A25E /* UIColor+CrossFade.m in Sources */ = {isa = PBXBuildFile; fileRef = B673295246D7B246CBC911E56D311C04 /* UIColor+CrossFade.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		01AE9BC15C5403C708BF6B5059BFDA75 /* AHEasing-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F80EADAB424668A5822BA706C2D3C899 /* AHEasing-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F7CE5AAAB31627449DAC235807E70A2 /* CAKeyframeAnimation+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = 707392A57480C3314B9A7A95B61261F3 /* CAKeyframeAnimation+AHEasing.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1763943FD2C96724E5949B6684CE49C9 /* UIColor-CrossFade-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 739C80E0387619349A7C296CBAB36FE3 /* UIColor-CrossFade-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		177DAC2916008254BA07FD7C1CDE5655 /* CAKeyframeAnimation+AHEasing.h in Headers */ = {isa = PBXBuildFile; fileRef = 317FE3A292792B566BA71D2A08999BA2 /* CAKeyframeAnimation+AHEasing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2136B205998D63D9806EC413356A66C6 /* UIColor_CrossFade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2455C344C6B20F2552C18A13113E40E4 /* UIColor_CrossFade.framework */; };
+		2BDE68134A1E1E48025E047C518B5E88 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480815535312117295DDE539DEC9CD0E /* QuartzCore.framework */; };
+		3D5EE6DAD0D684E966ED72E4C995A5EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E0A992ED2C31EFEC515061D1412E63 /* Foundation.framework */; };
+		5BB7982D63469845D052CCFA0E6192E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E0A992ED2C31EFEC515061D1412E63 /* Foundation.framework */; };
+		5DCE77E0F57F0062790D25BBA3728DDB /* Pods-FadingEdgesCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C279B9C3422E6DD8708DDD54569AB5 /* Pods-FadingEdgesCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67C67398695CFB9580CE67A544C4166B /* AHEasing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DFF40F3DBA47E69F43E19B6E56CABA /* AHEasing-dummy.m */; };
+		6A1131FDDA771DEC6CA3FA22F8567A15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E0A992ED2C31EFEC515061D1412E63 /* Foundation.framework */; };
+		6F8F4D816A2A69B90CF544E75B066553 /* HTGradientEasing-Fixed-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C785537A2C84DBE69C0FDF10A1E604 /* HTGradientEasing-Fixed-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88C88187DE48D27F9B9694D29CCC4A97 /* Pods-FadingEdgesCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58A62268638CF02546AC50FCD59B4 /* Pods-FadingEdgesCollectionView-dummy.m */; };
+		8DB35F896E6E06E637ECDDE7DF475E95 /* easing.h in Headers */ = {isa = PBXBuildFile; fileRef = D781D7D02E73257B5582A774D3077DA8 /* easing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B428509A4411434564C461B6838982A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480815535312117295DDE539DEC9CD0E /* QuartzCore.framework */; };
+		AC27B31FFB163420F90ED56F507ECAD6 /* UIColor-CrossFade-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC4CB43969BBF4EF23C678FA21216CC /* UIColor-CrossFade-dummy.m */; };
+		B456CADB2AE1E1E4EE94D57BFD325E87 /* AHEasing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6167655A7BF772E04F06695773A5B487 /* AHEasing.framework */; };
+		C67B89D1BDA3DAD579C7ECE67439E9D3 /* UIColor+CrossFade.h in Headers */ = {isa = PBXBuildFile; fileRef = A4EBA64EC917B8929D3980FDCF57F4AA /* UIColor+CrossFade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C806BF71373BB0F56E3FE1683E635B7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E0A992ED2C31EFEC515061D1412E63 /* Foundation.framework */; };
+		DF424898BD4F891392320BFA11DFBAAE /* CAGradientLayer+AHEasing.h in Headers */ = {isa = PBXBuildFile; fileRef = FB10428B156FA93A126132B578746D29 /* CAGradientLayer+AHEasing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E067D5843AA5D2424D016A18425178B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A0EACFEC363485910BEE4444656934 /* CoreGraphics.framework */; };
+		E2E5FAFA58D72949B9861FEA8D3A25B5 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 406CA65EE2DA25F7D18535A3B92D34A3 /* easing.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E4C538C232BCB10EF14B63923F2CFFF5 /* UIColor+CrossFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C39D27A7FCA4C84527183C8A15564986 /* UIColor+CrossFade.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EF87624923012886C9257BFFD85F17DA /* CAGradientLayer+AHEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ED1B9300843C8BAFC24CDBFADA24BA /* CAGradientLayer+AHEasing.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F0A29D46E22F44F5FC3E2BB410B3F900 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480815535312117295DDE539DEC9CD0E /* QuartzCore.framework */; };
+		FAD263BD38113D3815D0D2B1368D18BB /* HTGradientEasing-Fixed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 150095EFA2B0972A1112AD40ECA5CE94 /* HTGradientEasing-Fixed-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3C339BA6268AD4F7C3F3D80696D83C3D /* PBXContainerItemProxy */ = {
+		261B6C0CC75A621C9F88AD51DD3A5C69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A59141EE0A92952631B630BF7D1CAA3F;
+			remoteGlobalIDString = 671C274A6EB05FCD8DE954FC741D0A41;
 			remoteInfo = AHEasing;
 		};
-		4AEF74A2844F19A0014048305D3727A0 /* PBXContainerItemProxy */ = {
+		4061130FAC5F6F09382CFC9C030666C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9D31C21AB86D32B625D22D2F90CC9F72;
-			remoteInfo = HTGradientEasing;
-		};
-		B0C80215A4D051701C5E4159DC8E3DCC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EC26F69B69B8289E9BC27AEF2E4E278D;
-			remoteInfo = "UIColor-CrossFade";
-		};
-		D2DB35552321B65A3C6246066AFA6742 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EC26F69B69B8289E9BC27AEF2E4E278D;
-			remoteInfo = "UIColor-CrossFade";
-		};
-		F5D75DF9223715D6409AF26CEB82FACC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A59141EE0A92952631B630BF7D1CAA3F;
+			remoteGlobalIDString = 671C274A6EB05FCD8DE954FC741D0A41;
 			remoteInfo = AHEasing;
+		};
+		5DD00CB10966D5DE7DB64B7D182DF067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4454CAF52D7A7565FCDB9198C08BCD0F;
+			remoteInfo = "UIColor-CrossFade";
+		};
+		E14A9ECE13FDF05AABA9FC32D66D0E25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4454CAF52D7A7565FCDB9198C08BCD0F;
+			remoteInfo = "UIColor-CrossFade";
+		};
+		E5D1640EC554159D04CD4F1B9ACDE89B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD396994E62F107C75AACFA6A32073D2;
+			remoteInfo = "HTGradientEasing-Fixed";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0110409DFBFE7003AFCCB2DE975AE691 /* UIColor-CrossFade-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-CrossFade-prefix.pch"; sourceTree = "<group>"; };
-		089EFB569C8217E89062BC6E00C12753 /* UIColor-CrossFade.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor-CrossFade.xcconfig"; sourceTree = "<group>"; };
-		0C3108411472D0EF2E45D55E456DAB93 /* libHTGradientEasing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHTGradientEasing.a; path = libHTGradientEasing.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D91EE714A88EE190A70FE8FC00F5DFC /* CAGradientLayer+AHEasing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+AHEasing.m"; sourceTree = "<group>"; };
-		12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		19436E2C523CAC23B35E4F69548E0F3A /* AHEasing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHEasing-dummy.m"; sourceTree = "<group>"; };
-		2181A6BFD7BDC118146BE0AA3B814111 /* libAHEasing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAHEasing.a; path = libAHEasing.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3275991A771F7973A7E1110D9E1F36E6 /* Pods-FadingEdgesCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FadingEdgesCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
-		37BF5BD6355653AD4C4FA42B6F4EF92D /* libPods-FadingEdgesCollectionView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FadingEdgesCollectionView.a"; path = "libPods-FadingEdgesCollectionView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		412263ECE56EDCB122E54C87179758DF /* AHEasing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHEasing.xcconfig; sourceTree = "<group>"; };
-		435481BE5E6F4CB5166DDEBC2E5AE9D2 /* Pods-FadingEdgesCollectionView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FadingEdgesCollectionView-resources.sh"; sourceTree = "<group>"; };
-		46A18005BD847A9DC76136717ACF016A /* Pods-FadingEdgesCollectionView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FadingEdgesCollectionView-acknowledgements.markdown"; sourceTree = "<group>"; };
-		48AC70EE21928641949CEF4C445E9A15 /* CAKeyframeAnimation+AHEasing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAKeyframeAnimation+AHEasing.m"; path = "AHEasing/CAKeyframeAnimation+AHEasing.m"; sourceTree = "<group>"; };
-		56BE19FA641B62266D236A232DD51D32 /* Pods-FadingEdgesCollectionView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FadingEdgesCollectionView-acknowledgements.plist"; sourceTree = "<group>"; };
-		5B986B6C8A22A83079A3EE4372B6E1FE /* HTGradientEasing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTGradientEasing-dummy.m"; sourceTree = "<group>"; };
-		5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		67BA4629D9B4DAD2ACD23D9E0B46A4F5 /* AHEasing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHEasing-prefix.pch"; sourceTree = "<group>"; };
-		6BFF08EAB156413C80216DF229DBFC24 /* CAGradientLayer+AHEasing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+AHEasing.h"; sourceTree = "<group>"; };
+		0052B670D97E43DDC19ED316739C86A2 /* AHEasing.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AHEasing.modulemap; sourceTree = "<group>"; };
+		064154031672C4D0E18AE6DCA3D23F7A /* HTGradientEasing-Fixed.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "HTGradientEasing-Fixed.xcconfig"; sourceTree = "<group>"; };
+		14A78584F1A936B31E6C988DA5D329EA /* AHEasing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHEasing-prefix.pch"; sourceTree = "<group>"; };
+		150095EFA2B0972A1112AD40ECA5CE94 /* HTGradientEasing-Fixed-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTGradientEasing-Fixed-dummy.m"; sourceTree = "<group>"; };
+		20FDA80574F4CC5DEE5A99CEDCB1F028 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2455C344C6B20F2552C18A13113E40E4 /* UIColor_CrossFade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIColor_CrossFade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		317FE3A292792B566BA71D2A08999BA2 /* CAKeyframeAnimation+AHEasing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAKeyframeAnimation+AHEasing.h"; path = "AHEasing/CAKeyframeAnimation+AHEasing.h"; sourceTree = "<group>"; };
+		372215D78BBAA6DFD9B912CE61A980BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398CE957D3BE33A2EDB15F1AAA3EF987 /* AHEasing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHEasing.framework; path = AHEasing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA107ED4F62989D2441FF1007D28939 /* Pods-FadingEdgesCollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FadingEdgesCollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		3E987EDD1D3378CE85B7B60CFD16BA17 /* Pods-FadingEdgesCollectionView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FadingEdgesCollectionView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		406CA65EE2DA25F7D18535A3B92D34A3 /* easing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = easing.c; path = AHEasing/easing.c; sourceTree = "<group>"; };
+		42E0A992ED2C31EFEC515061D1412E63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		480815535312117295DDE539DEC9CD0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		4FC4CB43969BBF4EF23C678FA21216CC /* UIColor-CrossFade-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor-CrossFade-dummy.m"; sourceTree = "<group>"; };
+		547E7F0D40A91852EF4BE3F282BD2DA9 /* HTGradientEasing_Fixed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTGradientEasing_Fixed.framework; path = "HTGradientEasing-Fixed.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C58A62268638CF02546AC50FCD59B4 /* Pods-FadingEdgesCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FadingEdgesCollectionView-dummy.m"; sourceTree = "<group>"; };
+		56C785537A2C84DBE69C0FDF10A1E604 /* HTGradientEasing-Fixed-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTGradientEasing-Fixed-umbrella.h"; sourceTree = "<group>"; };
+		5DE6B2DEDFF19D22C693A4A6A126067B /* UIColor-CrossFade.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UIColor-CrossFade.modulemap"; sourceTree = "<group>"; };
+		6167655A7BF772E04F06695773A5B487 /* AHEasing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHEasing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A0EACFEC363485910BEE4444656934 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		699E5F5626B2BCCF4F6AE91ABCBF1B1E /* Pods_FadingEdgesCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FadingEdgesCollectionView.framework; path = "Pods-FadingEdgesCollectionView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		707392A57480C3314B9A7A95B61261F3 /* CAKeyframeAnimation+AHEasing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAKeyframeAnimation+AHEasing.m"; path = "AHEasing/CAKeyframeAnimation+AHEasing.m"; sourceTree = "<group>"; };
+		739C80E0387619349A7C296CBAB36FE3 /* UIColor-CrossFade-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-CrossFade-umbrella.h"; sourceTree = "<group>"; };
+		74EF9AF6F1035365C859CD8FC445FBCD /* UIColor-CrossFade-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor-CrossFade-prefix.pch"; sourceTree = "<group>"; };
+		778D175DE7CAEAD50758109F26A5744C /* UIColor-CrossFade.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor-CrossFade.xcconfig"; sourceTree = "<group>"; };
+		8E4F92686CBA6B84A60CB7DF5ABF610C /* Pods-FadingEdgesCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FadingEdgesCollectionView.release.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7049154DA39F112E506B34138CDDB22 /* CAKeyframeAnimation+AHEasing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAKeyframeAnimation+AHEasing.h"; path = "AHEasing/CAKeyframeAnimation+AHEasing.h"; sourceTree = "<group>"; };
-		B3F7240DAA0F80C39FDCA1CEEEBC6451 /* Pods-FadingEdgesCollectionView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FadingEdgesCollectionView-frameworks.sh"; sourceTree = "<group>"; };
-		B673295246D7B246CBC911E56D311C04 /* UIColor+CrossFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CrossFade.m"; sourceTree = "<group>"; };
-		BFB9AE678C2494EC105CAA2801F89D09 /* libUIColor-CrossFade.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libUIColor-CrossFade.a"; path = "libUIColor-CrossFade.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C016D2673DFD7F60A80D178DAD6CF823 /* Pods-FadingEdgesCollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FadingEdgesCollectionView.release.xcconfig"; sourceTree = "<group>"; };
-		C19FEC1894AB44A5B53073F7B345823C /* easing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = easing.c; path = AHEasing/easing.c; sourceTree = "<group>"; };
-		C341A159195BD87D99314679AFE6DB1C /* UIColor+CrossFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CrossFade.h"; sourceTree = "<group>"; };
-		D01D2A146E910F38DB2B126CE41050A3 /* HTGradientEasing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTGradientEasing.xcconfig; sourceTree = "<group>"; };
-		D3150912386AD6D1D60AE02D16572EFA /* HTGradientEasing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTGradientEasing-prefix.pch"; sourceTree = "<group>"; };
-		D7B387C2337C1C94F8396FB646BB335B /* Pods-FadingEdgesCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FadingEdgesCollectionView-dummy.m"; sourceTree = "<group>"; };
-		DA57EAC4E815442D8355C66F5C4B087F /* UIColor-CrossFade-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor-CrossFade-dummy.m"; sourceTree = "<group>"; };
-		E0D7BE8C4EB9D049BF40B8A6E7585D19 /* easing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = easing.h; path = AHEasing/easing.h; sourceTree = "<group>"; };
+		A0C09AAE5FC18692CDEF18DB2F7AC26E /* Pods-FadingEdgesCollectionView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FadingEdgesCollectionView-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4EBA64EC917B8929D3980FDCF57F4AA /* UIColor+CrossFade.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CrossFade.h"; sourceTree = "<group>"; };
+		A8FEF0F261479E0B5A58FFEF69CC2525 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC44BE6DF05AD982D860D36948FBED9A /* HTGradientEasing-Fixed-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTGradientEasing-Fixed-prefix.pch"; sourceTree = "<group>"; };
+		B0ED1B9300843C8BAFC24CDBFADA24BA /* CAGradientLayer+AHEasing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+AHEasing.m"; sourceTree = "<group>"; };
+		B22D6DBB0ABBA11305B91907E6788FD8 /* Pods-FadingEdgesCollectionView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FadingEdgesCollectionView-resources.sh"; sourceTree = "<group>"; };
+		C39D27A7FCA4C84527183C8A15564986 /* UIColor+CrossFade.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CrossFade.m"; sourceTree = "<group>"; };
+		C4DFF40F3DBA47E69F43E19B6E56CABA /* AHEasing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHEasing-dummy.m"; sourceTree = "<group>"; };
+		C7CBB24BAAAA878FD580CB00A459502E /* AHEasing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHEasing.xcconfig; sourceTree = "<group>"; };
+		D162A49B10AA0019FD129738DF5EC105 /* Pods-FadingEdgesCollectionView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FadingEdgesCollectionView-frameworks.sh"; sourceTree = "<group>"; };
+		D1C279B9C3422E6DD8708DDD54569AB5 /* Pods-FadingEdgesCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FadingEdgesCollectionView-umbrella.h"; sourceTree = "<group>"; };
+		D781D7D02E73257B5582A774D3077DA8 /* easing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = easing.h; path = AHEasing/easing.h; sourceTree = "<group>"; };
+		D97F41CFA2EBABF4B4D2942FCD7D2864 /* Pods-FadingEdgesCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FadingEdgesCollectionView.modulemap"; sourceTree = "<group>"; };
+		DB320878ECAAF979EB3A873984C42C5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80EADAB424668A5822BA706C2D3C899 /* AHEasing-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHEasing-umbrella.h"; sourceTree = "<group>"; };
+		FB10428B156FA93A126132B578746D29 /* CAGradientLayer+AHEasing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+AHEasing.h"; sourceTree = "<group>"; };
+		FD5263E8AF6ED394039C22D61239C980 /* UIColor_CrossFade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_CrossFade.framework; path = "UIColor-CrossFade.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCE0E1DEF1770EEC1C2C8DECC14D7F2 /* HTGradientEasing-Fixed.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "HTGradientEasing-Fixed.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		39B9790BA0F12653A784BE02C86DB79D /* Frameworks */ = {
+		502B13A88D41DD1CC4D19E60F29C5825 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64AFC06336DC1BD409AD3BC589175912 /* Foundation.framework in Frameworks */,
+				5BB7982D63469845D052CCFA0E6192E1 /* Foundation.framework in Frameworks */,
+				F0A29D46E22F44F5FC3E2BB410B3F900 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76629BDCD7AB7F534692CDCBE95386AD /* Frameworks */ = {
+		7D8E1A7387B23ABBE13E4722AB60FA6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE87EA8C66DDE67FDA1AAADED9FDB832 /* CoreGraphics.framework in Frameworks */,
-				2C0C16445C2AA22EE90AC3F2E6762970 /* Foundation.framework in Frameworks */,
-				DE6AED41D5118E3640E2BCD6C406F371 /* QuartzCore.framework in Frameworks */,
+				6A1131FDDA771DEC6CA3FA22F8567A15 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDF63136847573543B0D5AFED56BCBC4 /* Frameworks */ = {
+		BD8EE6C72A713B036FF600A9D70206DC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C31C5976110B930D83651234ED8DC4B /* Foundation.framework in Frameworks */,
-				0E5616B98C3C194D92B399C0998D8BDD /* QuartzCore.framework in Frameworks */,
+				C806BF71373BB0F56E3FE1683E635B7F /* Foundation.framework in Frameworks */,
+				9B428509A4411434564C461B6838982A /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E08FC8DF4FC48D40A897A191E14051FC /* Frameworks */ = {
+		FEF6773DFAFB10EB4476A4A514844A22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E89538D1EC7C2A0A9D2C194025A9843 /* Foundation.framework in Frameworks */,
-				F3F61DD8F1AC645848CCCABA769EA4DB /* QuartzCore.framework in Frameworks */,
+				B456CADB2AE1E1E4EE94D57BFD325E87 /* AHEasing.framework in Frameworks */,
+				E067D5843AA5D2424D016A18425178B3 /* CoreGraphics.framework in Frameworks */,
+				3D5EE6DAD0D684E966ED72E4C995A5EB /* Foundation.framework in Frameworks */,
+				2BDE68134A1E1E48025E047C518B5E88 /* QuartzCore.framework in Frameworks */,
+				2136B205998D63D9806EC413356A66C6 /* UIColor_CrossFade.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		117850619888FB474E8458C91CFF075E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5A4DBD434EA75DD3EDD3494C46AE6968 /* iOS */,
+				3A764804942EAD9F15F2B7266C6AC047 /* AHEasing */,
+				2C7D8226946ED317CD5F0430207E94FD /* HTGradientEasing-Fixed */,
+				C306057CA2C9DAE8F61F64F196267196 /* UIColor-CrossFade */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		37C57C044DFD3FA558D5FFE29BAA3B63 /* Pods-FadingEdgesCollectionView */ = {
+		203B6F3D012AE160F6BC5B9730428D8C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46A18005BD847A9DC76136717ACF016A /* Pods-FadingEdgesCollectionView-acknowledgements.markdown */,
-				56BE19FA641B62266D236A232DD51D32 /* Pods-FadingEdgesCollectionView-acknowledgements.plist */,
-				D7B387C2337C1C94F8396FB646BB335B /* Pods-FadingEdgesCollectionView-dummy.m */,
-				B3F7240DAA0F80C39FDCA1CEEEBC6451 /* Pods-FadingEdgesCollectionView-frameworks.sh */,
-				435481BE5E6F4CB5166DDEBC2E5AE9D2 /* Pods-FadingEdgesCollectionView-resources.sh */,
-				3275991A771F7973A7E1110D9E1F36E6 /* Pods-FadingEdgesCollectionView.debug.xcconfig */,
-				C016D2673DFD7F60A80D178DAD6CF823 /* Pods-FadingEdgesCollectionView.release.xcconfig */,
+				20FDA80574F4CC5DEE5A99CEDCB1F028 /* Info.plist */,
+				5DE6B2DEDFF19D22C693A4A6A126067B /* UIColor-CrossFade.modulemap */,
+				778D175DE7CAEAD50758109F26A5744C /* UIColor-CrossFade.xcconfig */,
+				4FC4CB43969BBF4EF23C678FA21216CC /* UIColor-CrossFade-dummy.m */,
+				74EF9AF6F1035365C859CD8FC445FBCD /* UIColor-CrossFade-prefix.pch */,
+				739C80E0387619349A7C296CBAB36FE3 /* UIColor-CrossFade-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor-CrossFade";
+			sourceTree = "<group>";
+		};
+		2C7D8226946ED317CD5F0430207E94FD /* HTGradientEasing-Fixed */ = {
+			isa = PBXGroup;
+			children = (
+				FB10428B156FA93A126132B578746D29 /* CAGradientLayer+AHEasing.h */,
+				B0ED1B9300843C8BAFC24CDBFADA24BA /* CAGradientLayer+AHEasing.m */,
+				D1A4CC0F2C39011984EACBAA4CA55B0B /* Support Files */,
+			);
+			name = "HTGradientEasing-Fixed";
+			path = "HTGradientEasing-Fixed";
+			sourceTree = "<group>";
+		};
+		3A764804942EAD9F15F2B7266C6AC047 /* AHEasing */ = {
+			isa = PBXGroup;
+			children = (
+				317FE3A292792B566BA71D2A08999BA2 /* CAKeyframeAnimation+AHEasing.h */,
+				707392A57480C3314B9A7A95B61261F3 /* CAKeyframeAnimation+AHEasing.m */,
+				406CA65EE2DA25F7D18535A3B92D34A3 /* easing.c */,
+				D781D7D02E73257B5582A774D3077DA8 /* easing.h */,
+				D799C5181A758691223C509410E30246 /* Support Files */,
+			);
+			name = AHEasing;
+			path = AHEasing;
+			sourceTree = "<group>";
+		};
+		3CF0F5C6BBC3C9C2434D365F36E6384F /* Pods-FadingEdgesCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				372215D78BBAA6DFD9B912CE61A980BB /* Info.plist */,
+				D97F41CFA2EBABF4B4D2942FCD7D2864 /* Pods-FadingEdgesCollectionView.modulemap */,
+				3E987EDD1D3378CE85B7B60CFD16BA17 /* Pods-FadingEdgesCollectionView-acknowledgements.markdown */,
+				A0C09AAE5FC18692CDEF18DB2F7AC26E /* Pods-FadingEdgesCollectionView-acknowledgements.plist */,
+				56C58A62268638CF02546AC50FCD59B4 /* Pods-FadingEdgesCollectionView-dummy.m */,
+				D162A49B10AA0019FD129738DF5EC105 /* Pods-FadingEdgesCollectionView-frameworks.sh */,
+				B22D6DBB0ABBA11305B91907E6788FD8 /* Pods-FadingEdgesCollectionView-resources.sh */,
+				D1C279B9C3422E6DD8708DDD54569AB5 /* Pods-FadingEdgesCollectionView-umbrella.h */,
+				3BA107ED4F62989D2441FF1007D28939 /* Pods-FadingEdgesCollectionView.debug.xcconfig */,
+				8E4F92686CBA6B84A60CB7DF5ABF610C /* Pods-FadingEdgesCollectionView.release.xcconfig */,
 			);
 			name = "Pods-FadingEdgesCollectionView";
 			path = "Target Support Files/Pods-FadingEdgesCollectionView";
-			sourceTree = "<group>";
-		};
-		5A4DBD434EA75DD3EDD3494C46AE6968 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */,
-				12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */,
-				5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6098D3C2F0CD864C57BEB834D4BEF648 /* HTGradientEasing */ = {
-			isa = PBXGroup;
-			children = (
-				6BFF08EAB156413C80216DF229DBFC24 /* CAGradientLayer+AHEasing.h */,
-				0D91EE714A88EE190A70FE8FC00F5DFC /* CAGradientLayer+AHEasing.m */,
-				B2A0091BF27E1F76E138159FA31C94D9 /* Support Files */,
-			);
-			name = HTGradientEasing;
-			path = HTGradientEasing;
-			sourceTree = "<group>";
-		};
-		73AC07FBDD598C78ED7BF3662C00E136 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EF544E9B5215C8F27357971DB3BA79B0 /* AHEasing */,
-				6098D3C2F0CD864C57BEB834D4BEF648 /* HTGradientEasing */,
-				E32726E10EB7F9A666675A9810BFCE36 /* UIColor-CrossFade */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				73AC07FBDD598C78ED7BF3662C00E136 /* Pods */,
-				B5934B2C50D4FC4EF1D3963E9AADA237 /* Products */,
-				A43E876DE8BFA86DFF6AAEE615D7EFC6 /* Targets Support Files */,
+				CDE60EE07752EC59B9F739904DD29A05 /* Frameworks */,
+				117850619888FB474E8458C91CFF075E /* Pods */,
+				DCDEEECAF5D38F1CA6C58976894B8274 /* Products */,
+				F6E6E3DC6171334EC2827A0F44ED4592 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9F1F2831470B74828BD411313730957D /* Support Files */ = {
+		C306057CA2C9DAE8F61F64F196267196 /* UIColor-CrossFade */ = {
 			isa = PBXGroup;
 			children = (
-				412263ECE56EDCB122E54C87179758DF /* AHEasing.xcconfig */,
-				19436E2C523CAC23B35E4F69548E0F3A /* AHEasing-dummy.m */,
-				67BA4629D9B4DAD2ACD23D9E0B46A4F5 /* AHEasing-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AHEasing";
-			sourceTree = "<group>";
-		};
-		A397770BC7E6A245353759895BD2D671 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				089EFB569C8217E89062BC6E00C12753 /* UIColor-CrossFade.xcconfig */,
-				DA57EAC4E815442D8355C66F5C4B087F /* UIColor-CrossFade-dummy.m */,
-				0110409DFBFE7003AFCCB2DE975AE691 /* UIColor-CrossFade-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/UIColor-CrossFade";
-			sourceTree = "<group>";
-		};
-		A43E876DE8BFA86DFF6AAEE615D7EFC6 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				37C57C044DFD3FA558D5FFE29BAA3B63 /* Pods-FadingEdgesCollectionView */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B2A0091BF27E1F76E138159FA31C94D9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D01D2A146E910F38DB2B126CE41050A3 /* HTGradientEasing.xcconfig */,
-				5B986B6C8A22A83079A3EE4372B6E1FE /* HTGradientEasing-dummy.m */,
-				D3150912386AD6D1D60AE02D16572EFA /* HTGradientEasing-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/HTGradientEasing";
-			sourceTree = "<group>";
-		};
-		B5934B2C50D4FC4EF1D3963E9AADA237 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2181A6BFD7BDC118146BE0AA3B814111 /* libAHEasing.a */,
-				0C3108411472D0EF2E45D55E456DAB93 /* libHTGradientEasing.a */,
-				37BF5BD6355653AD4C4FA42B6F4EF92D /* libPods-FadingEdgesCollectionView.a */,
-				BFB9AE678C2494EC105CAA2801F89D09 /* libUIColor-CrossFade.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E32726E10EB7F9A666675A9810BFCE36 /* UIColor-CrossFade */ = {
-			isa = PBXGroup;
-			children = (
-				C341A159195BD87D99314679AFE6DB1C /* UIColor+CrossFade.h */,
-				B673295246D7B246CBC911E56D311C04 /* UIColor+CrossFade.m */,
-				A397770BC7E6A245353759895BD2D671 /* Support Files */,
+				A4EBA64EC917B8929D3980FDCF57F4AA /* UIColor+CrossFade.h */,
+				C39D27A7FCA4C84527183C8A15564986 /* UIColor+CrossFade.m */,
+				203B6F3D012AE160F6BC5B9730428D8C /* Support Files */,
 			);
 			name = "UIColor-CrossFade";
 			path = "UIColor-CrossFade";
 			sourceTree = "<group>";
 		};
-		EF544E9B5215C8F27357971DB3BA79B0 /* AHEasing */ = {
+		CDE60EE07752EC59B9F739904DD29A05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A7049154DA39F112E506B34138CDDB22 /* CAKeyframeAnimation+AHEasing.h */,
-				48AC70EE21928641949CEF4C445E9A15 /* CAKeyframeAnimation+AHEasing.m */,
-				C19FEC1894AB44A5B53073F7B345823C /* easing.c */,
-				E0D7BE8C4EB9D049BF40B8A6E7585D19 /* easing.h */,
-				9F1F2831470B74828BD411313730957D /* Support Files */,
+				6167655A7BF772E04F06695773A5B487 /* AHEasing.framework */,
+				2455C344C6B20F2552C18A13113E40E4 /* UIColor_CrossFade.framework */,
+				FEF3FC7A8961D61BD4FEC6FE9B0EEF0C /* iOS */,
 			);
-			name = AHEasing;
-			path = AHEasing;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1A4CC0F2C39011984EACBAA4CA55B0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFCE0E1DEF1770EEC1C2C8DECC14D7F2 /* HTGradientEasing-Fixed.modulemap */,
+				064154031672C4D0E18AE6DCA3D23F7A /* HTGradientEasing-Fixed.xcconfig */,
+				150095EFA2B0972A1112AD40ECA5CE94 /* HTGradientEasing-Fixed-dummy.m */,
+				AC44BE6DF05AD982D860D36948FBED9A /* HTGradientEasing-Fixed-prefix.pch */,
+				56C785537A2C84DBE69C0FDF10A1E604 /* HTGradientEasing-Fixed-umbrella.h */,
+				A8FEF0F261479E0B5A58FFEF69CC2525 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HTGradientEasing-Fixed";
+			sourceTree = "<group>";
+		};
+		D799C5181A758691223C509410E30246 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0052B670D97E43DDC19ED316739C86A2 /* AHEasing.modulemap */,
+				C7CBB24BAAAA878FD580CB00A459502E /* AHEasing.xcconfig */,
+				C4DFF40F3DBA47E69F43E19B6E56CABA /* AHEasing-dummy.m */,
+				14A78584F1A936B31E6C988DA5D329EA /* AHEasing-prefix.pch */,
+				F80EADAB424668A5822BA706C2D3C899 /* AHEasing-umbrella.h */,
+				DB320878ECAAF979EB3A873984C42C5B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AHEasing";
+			sourceTree = "<group>";
+		};
+		DCDEEECAF5D38F1CA6C58976894B8274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				398CE957D3BE33A2EDB15F1AAA3EF987 /* AHEasing.framework */,
+				547E7F0D40A91852EF4BE3F282BD2DA9 /* HTGradientEasing_Fixed.framework */,
+				699E5F5626B2BCCF4F6AE91ABCBF1B1E /* Pods_FadingEdgesCollectionView.framework */,
+				FD5263E8AF6ED394039C22D61239C980 /* UIColor_CrossFade.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E6E3DC6171334EC2827A0F44ED4592 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CF0F5C6BBC3C9C2434D365F36E6384F /* Pods-FadingEdgesCollectionView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FEF3FC7A8961D61BD4FEC6FE9B0EEF0C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				67A0EACFEC363485910BEE4444656934 /* CoreGraphics.framework */,
+				42E0A992ED2C31EFEC515061D1412E63 /* Foundation.framework */,
+				480815535312117295DDE539DEC9CD0E /* QuartzCore.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7DEF97A324246A0C8820AFB6F09C97AD /* Headers */ = {
+		380F33B3AC2228FEF3F65C5DBCDF8308 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D689D53BFCB081CDF908EA2D65306CC /* CAGradientLayer+AHEasing.h in Headers */,
+				5DCE77E0F57F0062790D25BBA3728DDB /* Pods-FadingEdgesCollectionView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AFD8AC4DB20D88965B126B12B7204B2A /* Headers */ = {
+		4CE9FE3BF85CB3DDE21F942226AC62A5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5873F479DA8A43E47BBCF5F71B1BA34C /* UIColor+CrossFade.h in Headers */,
+				DF424898BD4F891392320BFA11DFBAAE /* CAGradientLayer+AHEasing.h in Headers */,
+				6F8F4D816A2A69B90CF544E75B066553 /* HTGradientEasing-Fixed-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E49A4B5A9F14CC8EE10089089CBBB2EA /* Headers */ = {
+		5C6FDEFDA4D4EF634280B7902EB1B3CE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79EC8EE8C0A359E6ED1E631CCB4F81FA /* CAKeyframeAnimation+AHEasing.h in Headers */,
-				3D9E7F9D0CA3C8A19894F3057A02332E /* easing.h in Headers */,
+				C67B89D1BDA3DAD579C7ECE67439E9D3 /* UIColor+CrossFade.h in Headers */,
+				1763943FD2C96724E5949B6684CE49C9 /* UIColor-CrossFade-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9818175EE02E3D7B5E87A7E65F28690 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AE9BC15C5403C708BF6B5059BFDA75 /* AHEasing-umbrella.h in Headers */,
+				177DAC2916008254BA07FD7C1CDE5655 /* CAKeyframeAnimation+AHEasing.h in Headers */,
+				8DB35F896E6E06E637ECDDE7DF475E95 /* easing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		036202BCDF7F3FBF8A12089251D0B548 /* Pods-FadingEdgesCollectionView */ = {
+		2B692E4EBBB36B3716210F32BB09B2D9 /* Pods-FadingEdgesCollectionView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CB00D535BDF479B7A87AE1DDC33072D /* Build configuration list for PBXNativeTarget "Pods-FadingEdgesCollectionView" */;
+			buildConfigurationList = C1596AA6BB71624474724F9CB92D8593 /* Build configuration list for PBXNativeTarget "Pods-FadingEdgesCollectionView" */;
 			buildPhases = (
-				9592D43C3AB76CB479E63DA2F1FA6EB2 /* Sources */,
-				39B9790BA0F12653A784BE02C86DB79D /* Frameworks */,
+				5D8CAA1760CBE949400191F9FEFA1F0A /* Sources */,
+				7D8E1A7387B23ABBE13E4722AB60FA6F /* Frameworks */,
+				380F33B3AC2228FEF3F65C5DBCDF8308 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0DC96C11F09C6A6950B61AB1828A6578 /* PBXTargetDependency */,
-				10EB665B43E6F8C99EE29F9DEA700C39 /* PBXTargetDependency */,
-				A7F34682B5F7EB0FAE8E8253B7517948 /* PBXTargetDependency */,
+				2E2D850BF3D159FEFBA8F0553F0396F4 /* PBXTargetDependency */,
+				A0E8DF6FB0731D666EE3C397C5762F02 /* PBXTargetDependency */,
+				863503DD56A262524656E0AACA919DBA /* PBXTargetDependency */,
 			);
 			name = "Pods-FadingEdgesCollectionView";
 			productName = "Pods-FadingEdgesCollectionView";
-			productReference = 37BF5BD6355653AD4C4FA42B6F4EF92D /* libPods-FadingEdgesCollectionView.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 699E5F5626B2BCCF4F6AE91ABCBF1B1E /* Pods_FadingEdgesCollectionView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		9D31C21AB86D32B625D22D2F90CC9F72 /* HTGradientEasing */ = {
+		4454CAF52D7A7565FCDB9198C08BCD0F /* UIColor-CrossFade */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98938596ECC4110429CCF5C3A7D7E2A0 /* Build configuration list for PBXNativeTarget "HTGradientEasing" */;
+			buildConfigurationList = 43CDC5BF683A3CBA3DF8012C8F06F8FD /* Build configuration list for PBXNativeTarget "UIColor-CrossFade" */;
 			buildPhases = (
-				A160419901215762434267D6B95D61B9 /* Sources */,
-				76629BDCD7AB7F534692CDCBE95386AD /* Frameworks */,
-				7DEF97A324246A0C8820AFB6F09C97AD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DB979CB5CC69B2741E434F06D67AE1D5 /* PBXTargetDependency */,
-				3FE617F4214A5B6FAED0E03E73F75352 /* PBXTargetDependency */,
-			);
-			name = HTGradientEasing;
-			productName = HTGradientEasing;
-			productReference = 0C3108411472D0EF2E45D55E456DAB93 /* libHTGradientEasing.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		A59141EE0A92952631B630BF7D1CAA3F /* AHEasing */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 00891BC3EA0CBB8CF4554A8A14AA348B /* Build configuration list for PBXNativeTarget "AHEasing" */;
-			buildPhases = (
-				EC59D67B788D184CC4C86C4E09503F75 /* Sources */,
-				E08FC8DF4FC48D40A897A191E14051FC /* Frameworks */,
-				E49A4B5A9F14CC8EE10089089CBBB2EA /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AHEasing;
-			productName = AHEasing;
-			productReference = 2181A6BFD7BDC118146BE0AA3B814111 /* libAHEasing.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		EC26F69B69B8289E9BC27AEF2E4E278D /* UIColor-CrossFade */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82C46AFE180D7F4580AA888392E8380A /* Build configuration list for PBXNativeTarget "UIColor-CrossFade" */;
-			buildPhases = (
-				137A628220C4883861AE0A444626819D /* Sources */,
-				BDF63136847573543B0D5AFED56BCBC4 /* Frameworks */,
-				AFD8AC4DB20D88965B126B12B7204B2A /* Headers */,
+				A56E70ECAEA4F776D74039670B67CA68 /* Sources */,
+				BD8EE6C72A713B036FF600A9D70206DC /* Frameworks */,
+				5C6FDEFDA4D4EF634280B7902EB1B3CE /* Headers */,
 			);
 			buildRules = (
 			);
@@ -383,8 +395,44 @@
 			);
 			name = "UIColor-CrossFade";
 			productName = "UIColor-CrossFade";
-			productReference = BFB9AE678C2494EC105CAA2801F89D09 /* libUIColor-CrossFade.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = FD5263E8AF6ED394039C22D61239C980 /* UIColor_CrossFade.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		671C274A6EB05FCD8DE954FC741D0A41 /* AHEasing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45050BBD74648A5799A822529E7A9B3F /* Build configuration list for PBXNativeTarget "AHEasing" */;
+			buildPhases = (
+				F6045A6E56244D908C54E2FD7975F9D9 /* Sources */,
+				502B13A88D41DD1CC4D19E60F29C5825 /* Frameworks */,
+				F9818175EE02E3D7B5E87A7E65F28690 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHEasing;
+			productName = AHEasing;
+			productReference = 398CE957D3BE33A2EDB15F1AAA3EF987 /* AHEasing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD396994E62F107C75AACFA6A32073D2 /* HTGradientEasing-Fixed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D88CCC58738217E44B2BBCC5CBD284A /* Build configuration list for PBXNativeTarget "HTGradientEasing-Fixed" */;
+			buildPhases = (
+				934BA062C0E3E6FE8DDC12F0E4C91A0A /* Sources */,
+				FEF6773DFAFB10EB4476A4A514844A22 /* Frameworks */,
+				4CE9FE3BF85CB3DDE21F942226AC62A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C64E8F382440C8115A601FA845368F /* PBXTargetDependency */,
+				E9BD5CAE2517F8EB240D62A93EDF5F50 /* PBXTargetDependency */,
+			);
+			name = "HTGradientEasing-Fixed";
+			productName = "HTGradientEasing-Fixed";
+			productReference = 547E7F0D40A91852EF4BE3F282BD2DA9 /* HTGradientEasing_Fixed.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -403,87 +451,87 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B5934B2C50D4FC4EF1D3963E9AADA237 /* Products */;
+			productRefGroup = DCDEEECAF5D38F1CA6C58976894B8274 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A59141EE0A92952631B630BF7D1CAA3F /* AHEasing */,
-				9D31C21AB86D32B625D22D2F90CC9F72 /* HTGradientEasing */,
-				036202BCDF7F3FBF8A12089251D0B548 /* Pods-FadingEdgesCollectionView */,
-				EC26F69B69B8289E9BC27AEF2E4E278D /* UIColor-CrossFade */,
+				671C274A6EB05FCD8DE954FC741D0A41 /* AHEasing */,
+				FD396994E62F107C75AACFA6A32073D2 /* HTGradientEasing-Fixed */,
+				2B692E4EBBB36B3716210F32BB09B2D9 /* Pods-FadingEdgesCollectionView */,
+				4454CAF52D7A7565FCDB9198C08BCD0F /* UIColor-CrossFade */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		137A628220C4883861AE0A444626819D /* Sources */ = {
+		5D8CAA1760CBE949400191F9FEFA1F0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4712023D52DAF1BDAE5045887A2A25E /* UIColor+CrossFade.m in Sources */,
-				95889841C8B0E26289A1EA613606F7BF /* UIColor-CrossFade-dummy.m in Sources */,
+				88C88187DE48D27F9B9694D29CCC4A97 /* Pods-FadingEdgesCollectionView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9592D43C3AB76CB479E63DA2F1FA6EB2 /* Sources */ = {
+		934BA062C0E3E6FE8DDC12F0E4C91A0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC264F4667CB71011143C11C5C120D49 /* Pods-FadingEdgesCollectionView-dummy.m in Sources */,
+				EF87624923012886C9257BFFD85F17DA /* CAGradientLayer+AHEasing.m in Sources */,
+				FAD263BD38113D3815D0D2B1368D18BB /* HTGradientEasing-Fixed-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A160419901215762434267D6B95D61B9 /* Sources */ = {
+		A56E70ECAEA4F776D74039670B67CA68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CF16A0CD9DAD05C1CAF7B905C2F6759 /* CAGradientLayer+AHEasing.m in Sources */,
-				B6B9808379861948BFEACF809DF56175 /* HTGradientEasing-dummy.m in Sources */,
+				E4C538C232BCB10EF14B63923F2CFFF5 /* UIColor+CrossFade.m in Sources */,
+				AC27B31FFB163420F90ED56F507ECAD6 /* UIColor-CrossFade-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC59D67B788D184CC4C86C4E09503F75 /* Sources */ = {
+		F6045A6E56244D908C54E2FD7975F9D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6A47CD8A57B6516EA156834E6CC020D /* AHEasing-dummy.m in Sources */,
-				85475E5EB2309583AF2039ECD9D5E796 /* CAKeyframeAnimation+AHEasing.m in Sources */,
-				AE58263F9754C63136052EF13B7B4577 /* easing.c in Sources */,
+				67C67398695CFB9580CE67A544C4166B /* AHEasing-dummy.m in Sources */,
+				0F7CE5AAAB31627449DAC235807E70A2 /* CAKeyframeAnimation+AHEasing.m in Sources */,
+				E2E5FAFA58D72949B9861FEA8D3A25B5 /* easing.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0DC96C11F09C6A6950B61AB1828A6578 /* PBXTargetDependency */ = {
+		2E2D850BF3D159FEFBA8F0553F0396F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AHEasing;
-			target = A59141EE0A92952631B630BF7D1CAA3F /* AHEasing */;
-			targetProxy = 3C339BA6268AD4F7C3F3D80696D83C3D /* PBXContainerItemProxy */;
+			target = 671C274A6EB05FCD8DE954FC741D0A41 /* AHEasing */;
+			targetProxy = 261B6C0CC75A621C9F88AD51DD3A5C69 /* PBXContainerItemProxy */;
 		};
-		10EB665B43E6F8C99EE29F9DEA700C39 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HTGradientEasing;
-			target = 9D31C21AB86D32B625D22D2F90CC9F72 /* HTGradientEasing */;
-			targetProxy = 4AEF74A2844F19A0014048305D3727A0 /* PBXContainerItemProxy */;
-		};
-		3FE617F4214A5B6FAED0E03E73F75352 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UIColor-CrossFade";
-			target = EC26F69B69B8289E9BC27AEF2E4E278D /* UIColor-CrossFade */;
-			targetProxy = B0C80215A4D051701C5E4159DC8E3DCC /* PBXContainerItemProxy */;
-		};
-		A7F34682B5F7EB0FAE8E8253B7517948 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UIColor-CrossFade";
-			target = EC26F69B69B8289E9BC27AEF2E4E278D /* UIColor-CrossFade */;
-			targetProxy = D2DB35552321B65A3C6246066AFA6742 /* PBXContainerItemProxy */;
-		};
-		DB979CB5CC69B2741E434F06D67AE1D5 /* PBXTargetDependency */ = {
+		30C64E8F382440C8115A601FA845368F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AHEasing;
-			target = A59141EE0A92952631B630BF7D1CAA3F /* AHEasing */;
-			targetProxy = F5D75DF9223715D6409AF26CEB82FACC /* PBXContainerItemProxy */;
+			target = 671C274A6EB05FCD8DE954FC741D0A41 /* AHEasing */;
+			targetProxy = 4061130FAC5F6F09382CFC9C030666C0 /* PBXContainerItemProxy */;
+		};
+		863503DD56A262524656E0AACA919DBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor-CrossFade";
+			target = 4454CAF52D7A7565FCDB9198C08BCD0F /* UIColor-CrossFade */;
+			targetProxy = E14A9ECE13FDF05AABA9FC32D66D0E25 /* PBXContainerItemProxy */;
+		};
+		A0E8DF6FB0731D666EE3C397C5762F02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HTGradientEasing-Fixed";
+			target = FD396994E62F107C75AACFA6A32073D2 /* HTGradientEasing-Fixed */;
+			targetProxy = E5D1640EC554159D04CD4F1B9ACDE89B /* PBXContainerItemProxy */;
+		};
+		E9BD5CAE2517F8EB240D62A93EDF5F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor-CrossFade";
+			target = 4454CAF52D7A7565FCDB9198C08BCD0F /* UIColor-CrossFade */;
+			targetProxy = 5DD00CB10966D5DE7DB64B7D182DF067 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -536,77 +584,110 @@
 			};
 			name = Debug;
 		};
-		23CD4FE1448F053F8F4A0B8865201084 /* Debug */ = {
+		231045706B56F8B7D0BFCBBDB9EDCEAD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 089EFB569C8217E89062BC6E00C12753 /* UIColor-CrossFade.xcconfig */;
+			baseConfigurationReference = 8E4F92686CBA6B84A60CB7DF5ABF610C /* Pods-FadingEdgesCollectionView.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIColor-CrossFade/UIColor-CrossFade-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				INFOPLIST_FILE = "Target Support Files/Pods-FadingEdgesCollectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FadingEdgesCollectionView/Pods-FadingEdgesCollectionView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FadingEdgesCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52712F629C9A8612624F1CF5F5F65F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064154031672C4D0E18AE6DCA3D23F7A /* HTGradientEasing-Fixed.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HTGradientEasing-Fixed/HTGradientEasing-Fixed-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTGradientEasing-Fixed/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTGradientEasing-Fixed/HTGradientEasing-Fixed.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HTGradientEasing_Fixed;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65646A86074943BC62771683BAACB9B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA107ED4F62989D2441FF1007D28939 /* Pods-FadingEdgesCollectionView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FadingEdgesCollectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FadingEdgesCollectionView/Pods-FadingEdgesCollectionView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FadingEdgesCollectionView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		4833E9F7A6340BC00F24C6D874B7596F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D01D2A146E910F38DB2B126CE41050A3 /* HTGradientEasing.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HTGradientEasing/HTGradientEasing-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		66FD48BB6B511FFE333E79AE8981904A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 089EFB569C8217E89062BC6E00C12753 /* UIColor-CrossFade.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/UIColor-CrossFade/UIColor-CrossFade-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
 		};
 		707B86CFB21B645E37109F39754D4051 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -652,141 +733,179 @@
 			};
 			name = Release;
 		};
-		DC834E85280955AA5495524788D3AFE4 /* Debug */ = {
+		88E0D7DDE60928DD34A701347DC4D35F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3275991A771F7973A7E1110D9E1F36E6 /* Pods-FadingEdgesCollectionView.debug.xcconfig */;
+			baseConfigurationReference = 778D175DE7CAEAD50758109F26A5744C /* UIColor-CrossFade.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		E22C64035552FF89CF696E0DAEFCF809 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C016D2673DFD7F60A80D178DAD6CF823 /* Pods-FadingEdgesCollectionView.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor-CrossFade/UIColor-CrossFade-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor-CrossFade/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor-CrossFade/UIColor-CrossFade.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = UIColor_CrossFade;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		E2527F91BB22E6870123D1C16D6CBC7F /* Debug */ = {
+		B1E23C003BBBB1973AC6F1B605645BFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 412263ECE56EDCB122E54C87179758DF /* AHEasing.xcconfig */;
+			baseConfigurationReference = 778D175DE7CAEAD50758109F26A5744C /* UIColor-CrossFade.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor-CrossFade/UIColor-CrossFade-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor-CrossFade/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UIColor-CrossFade/UIColor-CrossFade.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UIColor_CrossFade;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C43D6BAC68F2269A2E1E0809A940F8FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7CBB24BAAAA878FD580CB00A459502E /* AHEasing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/AHEasing/AHEasing-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				INFOPLIST_FILE = "Target Support Files/AHEasing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHEasing/AHEasing.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = AHEasing;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E8E6A08F36452BED4E3F765AA36061BA /* Debug */ = {
+		E4289F6AE4306F1752DA19D8B9AB9F6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D01D2A146E910F38DB2B126CE41050A3 /* HTGradientEasing.xcconfig */;
+			baseConfigurationReference = 064154031672C4D0E18AE6DCA3D23F7A /* HTGradientEasing-Fixed.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HTGradientEasing/HTGradientEasing-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				GCC_PREFIX_HEADER = "Target Support Files/HTGradientEasing-Fixed/HTGradientEasing-Fixed-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTGradientEasing-Fixed/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTGradientEasing-Fixed/HTGradientEasing-Fixed.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = HTGradientEasing_Fixed;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F22BEBF78A6B723C4B6CF9A8AB9B036B /* Release */ = {
+		F5FC236D858B0629CC0E6BEE224D293B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 412263ECE56EDCB122E54C87179758DF /* AHEasing.xcconfig */;
+			baseConfigurationReference = C7CBB24BAAAA878FD580CB00A459502E /* AHEasing.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/AHEasing/AHEasing-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				INFOPLIST_FILE = "Target Support Files/AHEasing/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHEasing/AHEasing.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = AHEasing;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00891BC3EA0CBB8CF4554A8A14AA348B /* Build configuration list for PBXNativeTarget "AHEasing" */ = {
+		1D88CCC58738217E44B2BBCC5CBD284A /* Build configuration list for PBXNativeTarget "HTGradientEasing-Fixed" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2527F91BB22E6870123D1C16D6CBC7F /* Debug */,
-				F22BEBF78A6B723C4B6CF9A8AB9B036B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1CB00D535BDF479B7A87AE1DDC33072D /* Build configuration list for PBXNativeTarget "Pods-FadingEdgesCollectionView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DC834E85280955AA5495524788D3AFE4 /* Debug */,
-				E22C64035552FF89CF696E0DAEFCF809 /* Release */,
+				E4289F6AE4306F1752DA19D8B9AB9F6C /* Debug */,
+				52712F629C9A8612624F1CF5F5F65F67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -800,20 +919,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82C46AFE180D7F4580AA888392E8380A /* Build configuration list for PBXNativeTarget "UIColor-CrossFade" */ = {
+		43CDC5BF683A3CBA3DF8012C8F06F8FD /* Build configuration list for PBXNativeTarget "UIColor-CrossFade" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23CD4FE1448F053F8F4A0B8865201084 /* Debug */,
-				66FD48BB6B511FFE333E79AE8981904A /* Release */,
+				B1E23C003BBBB1973AC6F1B605645BFC /* Debug */,
+				88E0D7DDE60928DD34A701347DC4D35F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		98938596ECC4110429CCF5C3A7D7E2A0 /* Build configuration list for PBXNativeTarget "HTGradientEasing" */ = {
+		45050BBD74648A5799A822529E7A9B3F /* Build configuration list for PBXNativeTarget "AHEasing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8E6A08F36452BED4E3F765AA36061BA /* Debug */,
-				4833E9F7A6340BC00F24C6D874B7596F /* Release */,
+				C43D6BAC68F2269A2E1E0809A940F8FC /* Debug */,
+				F5FC236D858B0629CC0E6BEE224D293B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1596AA6BB71624474724F9CB92D8593 /* Build configuration list for PBXNativeTarget "Pods-FadingEdgesCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65646A86074943BC62771683BAACB9B2 /* Debug */,
+				231045706B56F8B7D0BFCBBDB9EDCEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
