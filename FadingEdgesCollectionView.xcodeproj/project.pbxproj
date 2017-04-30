@@ -12,12 +12,12 @@
 		FA5727EA1EB56FCB00E6C7CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5727E81EB56FCB00E6C7CC /* Main.storyboard */; };
 		FA5727EC1EB56FCB00E6C7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5727EB1EB56FCB00E6C7CC /* Assets.xcassets */; };
 		FA5727EF1EB56FCB00E6C7CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5727ED1EB56FCB00E6C7CC /* LaunchScreen.storyboard */; };
-		FA5727F71EB5705E00E6C7CC /* FadingEdgesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5727F61EB5705E00E6C7CC /* FadingEdgesCollectionView.swift */; };
-		FA5727F91EB5729A00E6C7CC /* UIButton+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5727F81EB5729A00E6C7CC /* UIButton+Closure.swift */; };
-		FA5727FB1EB5760000E6C7CC /* StyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5727FA1EB5760000E6C7CC /* StyleKit.swift */; };
 		FA5727FF1EB5791C00E6C7CC /* img_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5727FC1EB5791C00E6C7CC /* img_1.jpg */; };
 		FA5728001EB5791C00E6C7CC /* img_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5727FD1EB5791C00E6C7CC /* img_2.jpg */; };
 		FA5728011EB5791C00E6C7CC /* img_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA5727FE1EB5791C00E6C7CC /* img_3.jpg */; };
+		FA5728071EB5893300E6C7CC /* FadingEdgesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5728041EB5893300E6C7CC /* FadingEdgesCollectionView.swift */; };
+		FA5728081EB5893300E6C7CC /* StyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5728051EB5893300E6C7CC /* StyleKit.swift */; };
+		FA5728091EB5893300E6C7CC /* UIButton+Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5728061EB5893300E6C7CC /* UIButton+Closure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +28,12 @@
 		FA5727EB1EB56FCB00E6C7CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5727EE1EB56FCB00E6C7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA5727F01EB56FCB00E6C7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA5727F61EB5705E00E6C7CC /* FadingEdgesCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadingEdgesCollectionView.swift; sourceTree = "<group>"; };
-		FA5727F81EB5729A00E6C7CC /* UIButton+Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Closure.swift"; sourceTree = "<group>"; };
-		FA5727FA1EB5760000E6C7CC /* StyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKit.swift; sourceTree = "<group>"; };
 		FA5727FC1EB5791C00E6C7CC /* img_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_1.jpg; sourceTree = "<group>"; };
 		FA5727FD1EB5791C00E6C7CC /* img_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_2.jpg; sourceTree = "<group>"; };
 		FA5727FE1EB5791C00E6C7CC /* img_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img_3.jpg; sourceTree = "<group>"; };
+		FA5728041EB5893300E6C7CC /* FadingEdgesCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadingEdgesCollectionView.swift; sourceTree = "<group>"; };
+		FA5728051EB5893300E6C7CC /* StyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleKit.swift; sourceTree = "<group>"; };
+		FA5728061EB5893300E6C7CC /* UIButton+Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Closure.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,15 +71,23 @@
 				FA5727FD1EB5791C00E6C7CC /* img_2.jpg */,
 				FA5727FE1EB5791C00E6C7CC /* img_3.jpg */,
 				FA5727E61EB56FCB00E6C7CC /* ViewController.swift */,
-				FA5727F61EB5705E00E6C7CC /* FadingEdgesCollectionView.swift */,
-				FA5727F81EB5729A00E6C7CC /* UIButton+Closure.swift */,
 				FA5727E81EB56FCB00E6C7CC /* Main.storyboard */,
-				FA5727FA1EB5760000E6C7CC /* StyleKit.swift */,
 				FA5727EB1EB56FCB00E6C7CC /* Assets.xcassets */,
 				FA5727ED1EB56FCB00E6C7CC /* LaunchScreen.storyboard */,
 				FA5727F01EB56FCB00E6C7CC /* Info.plist */,
+				FA5728031EB5893300E6C7CC /* Lib */,
 			);
 			path = FadingEdgesCollectionView;
+			sourceTree = "<group>";
+		};
+		FA5728031EB5893300E6C7CC /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				FA5728041EB5893300E6C7CC /* FadingEdgesCollectionView.swift */,
+				FA5728051EB5893300E6C7CC /* StyleKit.swift */,
+				FA5728061EB5893300E6C7CC /* UIButton+Closure.swift */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,11 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA5727F71EB5705E00E6C7CC /* FadingEdgesCollectionView.swift in Sources */,
 				FA5727E71EB56FCB00E6C7CC /* ViewController.swift in Sources */,
 				FA5727E51EB56FCB00E6C7CC /* AppDelegate.swift in Sources */,
-				FA5727FB1EB5760000E6C7CC /* StyleKit.swift in Sources */,
-				FA5727F91EB5729A00E6C7CC /* UIButton+Closure.swift in Sources */,
+				FA5728071EB5893300E6C7CC /* FadingEdgesCollectionView.swift in Sources */,
+				FA5728081EB5893300E6C7CC /* StyleKit.swift in Sources */,
+				FA5728091EB5893300E6C7CC /* UIButton+Closure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
