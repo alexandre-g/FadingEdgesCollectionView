@@ -1,4 +1,4 @@
-[![CocoaPods](https://img.shields.io/badge/CocoaPods-0.0.7-brightgreen.svg?style=flat)](https://cocoapods.org/pods/FadingEdgesCollectionView)
+[![CocoaPods](https://img.shields.io/badge/CocoaPods-0.1-brightgreen.svg?style=flat)](https://cocoapods.org/pods/FadingEdgesCollectionView)
 
 # FadingEdgesCollectionView
 A UICollectionView that fades its edges to hint about more content.
